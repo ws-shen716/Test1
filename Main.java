@@ -5,7 +5,6 @@ public class Main {
 		Scanner in = new Scanner(System.in);
 		int a = in.nextInt();
 		int b = in.nextInt();
-		
 		String str = "";
 		for (int i = a; i <= b; i++) {
 			if (isWS(i))
